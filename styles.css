@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-links {
+  display: flex;
+}
+
+.logo {
+  margin-top: 16px;
+}
