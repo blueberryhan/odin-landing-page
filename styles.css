@@ -69,3 +69,16 @@ li img {
   border: 2px solid blue;
   border-radius: 10px;
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 10px;
+  background-color: #e5e7eb;
+  padding: 70px 250px;
+}
+
+.thor {
+  align-self: flex-end;
+}
