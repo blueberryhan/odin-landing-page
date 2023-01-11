@@ -11,6 +11,7 @@ body {
 .header {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .header-links {
@@ -18,5 +19,24 @@ body {
 }
 
 .logo {
-  margin-top: 16px;
+  margin-top:
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-desc {
+  width: 300px;
+  gap: 2px;
+}
+
+.image {
+  padding: 30px 70px;
+  background-color: grey;
+}
+
+h1, p, button, ul {
+  margin: 0;
 }
