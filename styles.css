@@ -42,3 +42,30 @@ body {
 h1, p, button, ul {
   margin: 0;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.info-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-images li{
+  display: flex;
+  flex-direction: column;
+}
+
+li img {
+  width: 90px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
