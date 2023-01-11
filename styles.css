@@ -11,20 +11,22 @@ body {
 .header {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
 }
 
 .header-links {
   display: flex;
+  gap: 10px;
+  list-style-type: none;
 }
 
 .logo {
-  margin-top:
+
 }
 
 .hero-content {
   display: flex;
   justify-content: space-around;
+  padding: 80px 40px;
 }
 
 .hero-desc {
