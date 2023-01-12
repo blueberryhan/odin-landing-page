@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: roboto, sans-serif;
 }
 
 .hero {
@@ -8,19 +9,31 @@ body {
   color: #f9faf8;
 }
 
+.top-button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
 }
 
 .header-links {
   display: flex;
   gap: 10px;
   list-style-type: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .logo {
-
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .hero-content {
@@ -32,6 +45,11 @@ body {
 .hero-desc {
   width: 300px;
   gap: 2px;
+}
+
+.hero-desc p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .image {
@@ -76,9 +94,58 @@ li img {
   align-self: center;
   gap: 10px;
   background-color: #e5e7eb;
-  padding: 70px 250px;
+  padding: 90px 220px;
+  font-size: 30px;
+  color: #1f2937;
 }
 
 .thor {
   align-self: flex-end;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.bottom-block {
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: #e5e7eb;
+  padding: 20px 150px;
+}
+
+.sign-up div {
+  font-weight: 800;
+}
+
+.sign-up p {
+  font-size: 15px;
+}
+
+.sign-up-bottom {
+  align-self: end;
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 15px;
+  margin-top: -30px;
+  margin-right: -100px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
 }
